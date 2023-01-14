@@ -117,9 +117,8 @@ def protobuf_deps():
     if not native.existing_rule("rules_jvm_external"):
         _github_archive(
             name = "rules_jvm_external",
-            repo = "https://github.com/bazelbuild/rules_jvm_external",
-            commit = "906875b0d5eaaf61a8ca2c9c3835bde6f435d011",
-            sha256 = "744bd7436f63af7e9872948773b8b106016dc164acb3960b4963f86754532ee7",
+            repo = "https://github.com/rawlingsj/rules_jvm_external",
+            commit = "1e8236c2c5e9de58e791990a2df70bf253be4145",
         )
 
     if not native.existing_rule("rules_pkg"):
