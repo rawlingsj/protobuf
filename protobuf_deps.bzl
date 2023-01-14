@@ -118,7 +118,7 @@ def protobuf_deps():
         _github_archive(
             name = "rules_jvm_external",
             repo = "https://github.com/rawlingsj/rules_jvm_external",
-            commit = "1e8236c2c5e9de58e791990a2df70bf253be4145",
+            commit = "master",
         )
 
     if not native.existing_rule("rules_pkg"):
